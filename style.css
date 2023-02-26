@@ -27,14 +27,24 @@ button {
 }
 .display {
   margin: 5px;
+  padding-bottom: 0;
   display: flex;
   height: 100px;
   justify-content: flex-end;
   align-items: flex-end;
   font-size: 100px;
   font-weight: lighter;
+  transition: 0.2s;
 }
-
+.ans {
+  margin: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 30px;
+  color: #a4a4a4;
+  height: 36px;
+}
 .row {
   display: flex;
   justify-content: space-evenly;
@@ -66,4 +76,11 @@ button {
 
 button:hover {
   filter: brightness(80%);
+}
+.forsaken{
+  background-color: red;
+  height: 100%;
+  width: 100%;
+
+  font-size: 200px;
 }
